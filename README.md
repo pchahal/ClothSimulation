@@ -1,6 +1,8 @@
-# ClothSimulation
-
 The Cloth draping simulation was a project I did for my 4th year computer graphics class.  Below are some screen shots as well as the paper describing in detail how the simulation works.
+
+# Project Title :       Physically Based Model of Cloth Draping
+
+# Author:        Pardeep Chahal
 
 # How to Use the Program
 
@@ -14,18 +16,11 @@ At the bottom of the main window are buttons for controlling the animation.
 
 Play allows the user to start the animation. Next draws the next frame in the animation.
 
-For detail on how the cloth simulation works read my paper below:
-
-# Project Title :       Physically Based Model of Cloth Draping
- 
-
-# Author:        Pardeep Chahal
- 
+For detail on how the cloth simulation works read my paper below: 
 
 # Introduction
 
  
-
 The goal of this project is to simulate the animation of a cloth object using a physically based model.  Motivations for this project come not only from cloth fabric hanging from fixed points like flags, or draping around tables but complex simulation of garments on actors in computer generated films.  Cloth behavior is determined by collisions between the cloth and the body and self collisions within the cloth itself. Many different kinds of models have been used in animation of cloth and similar deformable surfaces.  This simulation we will be using a physical model based on Newton’s motion equation applied to a particle system.  This model allows us to handle each element of the cloth separately for manipulation of position, speed and direction.  The simulation will involve a cloth suspended in air with an initial position.  Where the user provides properties of the cloth such as structural, bending and shear which in essence models different types of cloth fabrics.  As well as providing external properties which affect the behavior of the cloth such as gravity and wind forces.  Objects can also be placed in the scene by the user such as boxes which the cloth can interact with.  As the animation proceeds the cloth will behave according to its internal physical properties, the external properties of the environment and the how it responds to objects in the scene.  A typical scenario could have a cloth suspended in air falling and draping around a box placed appropriately in the scene.
 
  
