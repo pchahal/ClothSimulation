@@ -1,11 +1,8 @@
 # ClothSimulation
-The Cloth draping simulation was a project I did for my 4th year computer graphics class.  Below are some screen shots as well as the paper describing in detail how the simulation works.
-
-About the Program
 
 The Cloth draping simulation was a project I did for my 4th year computer graphics class.  Below are some screen shots as well as the paper describing in detail how the simulation works.
 
-How to Use the Program
+# How to Use the Program
 
 The program is very easy to use.  Under display the user can change display properties to control how rendering attributes, such as lights, camera position and drawing modes. The display of vertex/mass and springs of the cloth can be individually toggled as well.
 
@@ -19,17 +16,13 @@ Play allows the user to start the animation. Next draws the next frame in the an
 
 For detail on how the cloth simulation works read my paper below:
 
-Project Title :       Physically Based Model of Cloth Draping
-
+# Project Title :       Physically Based Model of Cloth Draping
  
 
-Author:        Pardeep Chahal
-
-                   
-
+# Author:        Pardeep Chahal
  
 
-Introduction
+# Introduction
 
  
 
@@ -37,11 +30,11 @@ The goal of this project is to simulate the animation of a cloth object using a 
 
  
 
-How it Works
+# How it Works
 
  
 
-Modeling the Cloth:
+# Modeling the Cloth:
 
  
 
@@ -92,7 +85,7 @@ Flexion springs handle stresses from the cloth bending. Flexion springs connect 
 
  
 
-The Formulas Involved
+# The Formulas Involved
 
  
 
@@ -146,7 +139,7 @@ There are two types of forces in our model Internal and External forces.
 
  
 
-Internal Forces
+# Internal Forces
 
 These are the forces determined by the physical properties of the cloth, the structural, shearing and flexion or bending forces and are a result of the tensions of these springs linking neighboring points of the cloth.
 
@@ -174,9 +167,7 @@ For each spring linked to the point Pi,j we substitute it into the above equatio
 
  
 
- 
-
-External Forces
+# External Forces
 
 External forces that will be modeled will be a gravitational force, wind resistance and a damping force.
 
@@ -226,7 +217,7 @@ The two internal and external force vectors are summed to give the final force a
 
  
 
-Collisions
+# Collisions
 
  
 
@@ -258,7 +249,7 @@ Collisions are handled by applying laws of friction to objects in contact. In th
 
  
 
-Future enhancements
+# Future enhancements
 
 The following list of features would be ideally implemented:
 
@@ -278,7 +269,7 @@ The following list of features would be ideally implemented:
 
  
 
-References
+# References
 
 1. Xavier Provot “Deformation Constraints in a Mass-Spring Model to Describe Rigid Cloth Behavior” Institut National de Recherche en Informmatique et Automatique (INRIA) pp 3-4,6-7
 
